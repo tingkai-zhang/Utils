@@ -16,7 +16,7 @@ apt-get install --no-install-recommends nvidia-opencl-icd-375 nvidia-opencl-dev 
 pip install allennlp && conda install -c conda-forge python-lmdb -y && \
 conda install -c anaconda pandas -y && \
 conda install -c conda-forge lightgbm -y &&\
-python -m spacy download en_core_web_sm -y && \
+python -m spacy download en_core_web_sm && \
 conda install assertpy --channel ActivisionGameScience && \
 conda install -c conda-forge xgboost && \
 conda install dask
