@@ -1,7 +1,7 @@
 apt-get update &&\
 apt-get install unzip  &&\
 apt-get install wget &&\
-wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh
+wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
 sh *.sh
 #conda init
 exit
