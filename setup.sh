@@ -16,7 +16,8 @@ pip install git+https://github.com/allenai/allennlp.git && conda install -c cond
 pip install git+https://github.com/huggingface/transformers.git && \
 conda install -c anaconda pandas -y && \
 conda install -c conda-forge lightgbm -y &&\
-python -m spacy download en_core_web_sm && \
+//python -m spacy download en_core_web_sm && \
+python -m spacy download en_core_web_lg && \
 conda install assertpy --channel ActivisionGameScience && \
 conda install -c conda-forge xgboost && \
 conda install dask
