@@ -1,4 +1,4 @@
-apt-get update &&\
-apt-get install unzip  &&\
-apt-get install wget
+sudo apt-get update &&\
+sudo apt-get install unzip  &&\
+sudo apt-get install wget &&\
 sudo apt install git
