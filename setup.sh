@@ -1,7 +1,12 @@
 apt-get update &&\
 apt-get install unzip  &&\
 apt-get install wget &&\
+# conda
 wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
+# Mini-conda
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+
+
 sh *.sh
 #conda init
 exit
