@@ -1,7 +1,6 @@
 # Install unzip, wget, git
-sudo apt-get update &&\
-sudo apt-get install unzip  &&\
-sudo apt-get install wget &&\
+sudo apt-get update
+sudo apt-get install unzip wget
 sudo apt install git
 
 # Install fish shell
