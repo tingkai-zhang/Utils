@@ -19,14 +19,14 @@ helm install \
   --namespace cert-manager \
   --version v1.0.1
   
-echo -n "rancher-hostname: "
-read rancher-hostname
+echo -n "rancher_hostname: "
+read rancher_hostname
 
 echo -n "email: "
 read email
 
 helm install rancher rancher-stable/rancher \
   --namespace cattle-system \
-  --set hostname=$rancher-hostname \
+  --set hostname=$rancher_hostname \
   --set ingress.tls.source=letsEncrypt \
   --set letsEncrypt.email=$email
