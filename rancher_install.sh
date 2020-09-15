@@ -27,6 +27,6 @@ read email
 
 helm install rancher rancher-stable/rancher \
   --namespace cattle-system \
-  --set hostname=rancher-hostname \
+  --set hostname=$rancher-hostname \
   --set ingress.tls.source=letsEncrypt \
-  --set letsEncrypt.email=email
+  --set letsEncrypt.email=$email
