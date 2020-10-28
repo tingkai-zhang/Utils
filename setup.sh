@@ -6,6 +6,8 @@ wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
 # Mini-conda
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
+# installing scipy has error: library mach has Fortran sources but no Fortran compiler found
+sudo apt-get install gfortran
 
 sh *.sh
 #conda init
@@ -16,6 +18,7 @@ exit
 # Refer to https://lightgbm.readthedocs.io/en/latest/GPU-Tutorial.html
 apt-get install --no-install-recommends nvidia-opencl-icd-375 nvidia-opencl-dev opencl-headers
 
+sudo apt-get install libblas-dev  liblapack-dev
 
 pip install git+https://github.com/allenai/allennlp.git && conda install -c conda-forge python-lmdb -y && \
 pip install git+https://github.com/huggingface/transformers.git && \
