@@ -1,6 +1,5 @@
-pyenv install 3.7.7
-
-pyenv global 3.7.7
+pyenv install $1
+pyenv global $1
 
 apt update
 
